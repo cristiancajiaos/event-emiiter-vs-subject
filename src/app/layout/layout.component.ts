@@ -12,4 +12,8 @@ export class LayoutComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  log(timestamp) {
+    console.log(`App: ${timestamp}`);
+  }
+
 }
